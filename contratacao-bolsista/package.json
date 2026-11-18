@@ -1,0 +1,15 @@
+{
+  "name": "exportacao-bpmn-svg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exporta processo.bpmn para processo.svg localmente.",
+  "scripts": {
+    "export:svg": "bpmn-to-image processo.bpmn;processo.svg --no-title --no-footer"
+  },
+  "devDependencies": {
+    "bpmn-to-image": "0.10.0"
+  },
+  "allowScripts": {
+    "puppeteer@24.43.1": true
+  }
+}
